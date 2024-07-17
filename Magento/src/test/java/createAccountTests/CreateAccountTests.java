@@ -16,7 +16,7 @@ public class CreateAccountTests extends BaseTest {
 
         CreateAccountPage createAccountPage = new CreateAccountPage(driver);
         createAccountPage.enterFirstName("Stan");
-        createAccountPage.enterLastName("THe man");
+        createAccountPage.enterLastName("THe best man");
         createAccountPage.enterEmail("stanTheMan@gmail.com");
         createAccountPage.enterPassword("Stan!567");
         createAccountPage.enterPasswordConf("Stan!567");
